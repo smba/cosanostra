@@ -8,7 +8,7 @@ VM_DIR = "{}/variability_models".format(THIS_DIR)
 class DimacsTest(unittest.TestCase):
 
     def setUp(self):
-        '''
+        '''pass
         This method loads test resources and checks if they exist.
 
         :return:
@@ -29,23 +29,21 @@ class DimacsTest(unittest.TestCase):
         for key in self.paths:
             path = self.paths[key]
             x = util.parse_dimacs(path)
-            # TODO assertions of parsing results
+            # TODO how to validate parsing results
 
     def test_dimacs_to_bit_model(self):
         for key in self.paths:
             path = self.paths[key]
             dimacs, features = util.parse_dimacs(path)
-            y = util.dimacs_to_bit_model(dimacs, len(features))
-            # TODO assertions of constraints
+            util.dimacs_to_bit_model(dimacs, len(features))
+            # TODO how to validate model?
 
     def test_dimacs_to_bool_model(self):
         for key in self.paths:
             path = self.paths[key]
             dimacs, features = util.parse_dimacs(path)
-            y = util.dimacs_to_bool_model(dimacs, features)
-            # TODO assertions of constraints
-
-            print(y[1])
+            util.dimacs_to_bool_model(dimacs, features)
+            # TODO how to validate model?
 
 if __name__ == '__main__':
     unittest.main()

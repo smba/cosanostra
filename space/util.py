@@ -1,4 +1,5 @@
 import numpy as np
+import space.binary as binary
 from typing import Mapping, MutableMapping, Sequence, Iterable, List, Set
 import z3
 
@@ -88,4 +89,4 @@ def dimacs_to_bit_model(dimacs: Sequence[Sequence[int]], n_options: int) -> (Seq
 
         clauses.append(z3.Or(c))
 
-    return clauses, target
+    return clauses, target#
