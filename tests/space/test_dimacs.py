@@ -29,9 +29,23 @@ class DimacsTest(unittest.TestCase):
         for key in self.paths:
             path = self.paths[key]
             x = util.parse_dimacs(path)
+            # TODO assertions of parsing results
 
-            #print(x.__hash__())
+    def test_dimacs_to_bit_model(self):
+        for key in self.paths:
+            path = self.paths[key]
+            dimacs, features = util.parse_dimacs(path)
+            y = util.dimacs_to_bit_model(dimacs, len(features))
+            # TODO assertions of constraints
 
+    def test_dimacs_to_bool_model(self):
+        for key in self.paths:
+            path = self.paths[key]
+            dimacs, features = util.parse_dimacs(path)
+            y = util.dimacs_to_bool_model(dimacs, features)
+            # TODO assertions of constraints
+
+            print(y[1])
 
 if __name__ == '__main__':
     unittest.main()
