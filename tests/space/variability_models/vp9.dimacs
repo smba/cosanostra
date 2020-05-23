@@ -1,0 +1,147 @@
+c 1 root
+c 2 Quality
+c 3 good
+c 4 realtime
+c 5 AutoAltRef
+c 6 AdaptiveQuantizationMode
+c 7 off
+c 8 variance
+c 9 complexity
+c 10 cyclicRefresh
+c 11 endUsage
+c 12 variableBitrate
+c 13 constantBitrate
+c 14 constrainedQuality
+c 15 lossless
+c 16 FrameBoost
+c 17 lagInFrames
+c 18 lagInFrames_0
+c 19 lagInFrames_8
+c 20 lagInFrames_16
+c 21 bitRate
+c 22 bitRate_300
+c 23 bitRate_600
+c 24 bitRate_900
+c 25 bitRate_1200
+c 26 bitRate_1500
+c 27 Threads
+c 28 Threads_2
+c 29 Threads_4
+c 30 Threads_6
+c 31 Threads_8
+c 32 Threads_10
+c 33 cpuUsed
+c 34 cpuUsed_0
+c 35 cpuUsed_2
+c 36 cpuUsed_4
+c 37 cpuUsed_6
+c 38 cpuUsed_8
+c 39 TileColumns
+c 40 TileColumns_0
+c 41 TileColumns_3
+c 42 TileColumns_6
+p cnf 42 104
+1 0
+2 0
+6 0
+11 0
+17 0
+21 0
+27 0
+33 0
+39 0
+1 -2 0
+2 -3 0
+2 -4 0
+1 -5 0
+1 -6 0
+6 -7 0
+6 -8 0
+6 -9 0
+6 -10 0
+1 -11 0
+11 -12 0
+11 -13 0
+11 -14 0
+1 -15 0
+1 -16 0
+1 -17 0
+17 -18 0
+17 -19 0
+17 -20 0
+1 -21 0
+21 -22 0
+21 -23 0
+21 -24 0
+21 -25 0
+21 -26 0
+1 -27 0
+27 -28 0
+27 -29 0
+27 -30 0
+27 -31 0
+27 -32 0
+1 -33 0
+33 -34 0
+33 -35 0
+33 -36 0
+33 -37 0
+33 -38 0
+1 -39 0
+39 -40 0
+39 -41 0
+39 -42 0
+4 3 -2 0
+-4 -3 0
+8 9 10 7 -6 0
+-8 -9 0
+-8 -10 0
+-8 -7 0
+-9 -10 0
+-9 -7 0
+-10 -7 0
+13 14 12 -11 0
+-13 -14 0
+-13 -12 0
+-14 -12 0
+19 20 18 -17 0
+-19 -20 0
+-19 -18 0
+-20 -18 0
+23 24 25 26 22 -21 0
+-23 -24 0
+-23 -25 0
+-23 -26 0
+-23 -22 0
+-24 -25 0
+-24 -26 0
+-24 -22 0
+-25 -26 0
+-25 -22 0
+-26 -22 0
+29 30 31 32 28 -27 0
+-29 -30 0
+-29 -31 0
+-29 -32 0
+-29 -28 0
+-30 -31 0
+-30 -32 0
+-30 -28 0
+-31 -32 0
+-31 -28 0
+-32 -28 0
+35 36 37 38 34 -33 0
+-35 -36 0
+-35 -37 0
+-35 -38 0
+-35 -34 0
+-36 -37 0
+-36 -38 0
+-36 -34 0
+-37 -38 0
+-37 -34 0
+-38 -34 0
+41 42 40 -39 0
+-41 -42 0
+-41 -40 0
+-42 -40 0
